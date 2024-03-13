@@ -70,5 +70,5 @@ function createStudent(cStudent: StudentClassConstructorInterface, firstName: st
     return new cStudent(firstName, lastName);
 }
 
-const student1 = createStudent(StudentClass, 'Precious', 'Victoria');
+const student1 = createStudent(StudentClass, 'Precious', 'Victorias');
 console.log(student1);
